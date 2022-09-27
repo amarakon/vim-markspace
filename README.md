@@ -1,0 +1,29 @@
+Vim Markspace
+================
+
+## Contents
+
+-   <a href="#introduction" id="toc-introduction">Introduction</a>
+-   <a href="#installation" id="toc-installation">Installation</a>
+    -   <a href="#vim-plug" id="toc-vim-plug"><span>vim-plug</span></a>
+
+## Introduction
+
+![](preview.png)
+
+This plugin simply highlights whitespace as it should look like in a
+good integrated development environment so you can differentiate between
+tabs, spaces, and trailing whitespace. Tabs are highlighted with
+straight lines and a pipe symbol to separate them. Multiple spaces,
+leading spaces, and trailing spaces are marked with a simple dot symbol.
+Highlighting trailing whitespace with the `Error` highlight group is
+only done when not in insert mode. The result is smart, professional
+whitespace highlighting that makes Neovim look like an IDE.
+
+## Installation
+
+### [vim-plug](https://github.com/junegunn/vim-plug)
+
+``` vim
+Plug "amarakon/vim-markspace"
+```
