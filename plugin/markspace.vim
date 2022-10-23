@@ -1,5 +1,5 @@
 " First enable showing whitespace and set the characters
-set list listchars=tab:\|─,multispace:·,lead:·,trail:·
+set list listchars=tab:│─,multispace:·,lead:·,trail:·
 
 " Define the match pattern for trailing whitespace
 match TrailingWhitespace /\s\+$/
